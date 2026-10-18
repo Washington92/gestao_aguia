@@ -1,5 +1,9 @@
 ﻿# Águia Gestão — preparação para publicação
 
+## Prévia visual
+
+![Tela de acesso do Águia Gestão](frontend/public/github-login-preview.png)
+
 ## Estado atual
 - Interface React + TypeScript (Vite), com layout responsivo para celular e computador.
 - Configuração PWA: pode ser instalada pelo navegador e abre a interface em cache quando a conexão cai. Os dados e operações exigem internet.
@@ -34,4 +38,4 @@ A API local fica em `http://127.0.0.1:8003`; Vite roda na porta exibida no termi
 O SQLite local não é enviado ao navegador nem ao frontend. Faça uma cópia de segurança e planeje a importação para o banco de produção antes de colocar o portal em uso. A inicialização atual cria tabelas e aplica alguns ajustes incrementais; antes de operar em produção, isso deve ser substituído por migrações versionadas.
 
 ## Pendências antes de uso oficial
-Este preparo não publica o sistema e não implementa login, permissões ou migração automática. Antes de inserir dados reais na internet, implemente autenticação e autorização, migrações versionadas, backups testados, logs/monitoramento e política de acesso aos dados.
+O sistema inclui acesso por login e cadastro de técnicos. Antes de inserir dados reais na internet, revise a autorização de cada operação no backend, prepare migrações versionadas, teste os backups e defina monitoramento e política de acesso aos dados.
