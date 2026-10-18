@@ -1,0 +1,17 @@
+﻿{
+  "id": "/",
+  "name": "Águia Gestão",
+  "short_name": "Águia Gestão",
+  "description": "Gestão operacional do Grupo Águia Power.",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f6fa",
+  "theme_color": "#101d35",
+  "icons": [
+    { "src": "/aguia-sidebar.png", "sizes": "256x256", "type": "image/png", "purpose": "any" },
+    { "src": "/aguia-sidebar.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
